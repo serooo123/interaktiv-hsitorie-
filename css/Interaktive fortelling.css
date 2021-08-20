@@ -1,0 +1,76 @@
+/* her har jeg settet bakgrunn og settet farge på teksten */
+
+body{
+    margin:0px auto;
+    background: black;
+    color: white;
+}
+
+/* her har jeg settet hvor stor videoen skal være og posisjonen på den*/
+
+video{
+    border:1px solid black;
+    height: 70vh;
+    width: 90vw;
+    transform: translate(-50%,0%);
+    position: relative;
+    left: 50%;
+
+}
+
+/* her har jeg settet hvilke posisjon valegene skal være på */
+
+.valgene{
+    display: inline-block;
+    transform: translate(-50%,0%);
+    position: relative;
+        left: 50%;
+}
+
+/*her så er det hvilket skrift type,farge,hvor skriften er og om den har en dekerasjon */
+
+h1{
+    font-family: arial;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+/* her så er det hvor stor bildet er og en dekorasjon som kommer rundt dan man holder pilen på den */
+
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+/*her er det avstanden overskriften har mellom toppen */
+
+h1{
+    margin: 10px;
+}
+
+/*her er det skrifttype,tekst dekorasjon,hvor teksten er plasert,bredden, bagrunnfargen,
+ hvor bøyd dekorasjonen er rundt da man holder pilen over valgene,avstanden mellom valgene oh videoen,
+ hvilke retning valegene er mot, størrelse på valgene, også til slutt fargen */
+
+.valgene a{
+    font-family: arial;
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+    background: rgba(0,0,0,.75);
+    border-radius: 5px;
+    padding: 5px;
+    float: left;
+    font-size: 1.5vh;
+    overflow: hidden;
+    color: white;
+}
+
+/* her er det hvilke farge bagrunnen på valgene får og hvilke farge teksten får */
+
+.valgene a:hover{
+    background: rgba(255,255,255,1);
+    transition: .25s ease-in-out;
+    color: black;
+}
